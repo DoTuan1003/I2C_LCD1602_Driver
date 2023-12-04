@@ -1,7 +1,8 @@
 # I2C_LCD1602 device Driver linux for beagle ball black
 -  how to run ?
 -  1. add device tree to am335x-bone-common.dtsi and build(./tools/rebuild) to .dtb
-+&i2c1 {
+  
++ &i2c1 {
 +	pinctrl-names = "default";
 +	pinctrl-0 = <&i2c1_pins>;
 +
